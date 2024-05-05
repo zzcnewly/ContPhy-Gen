@@ -33,7 +33,7 @@ Codebase for ContPhy dataset generation.
         <image src="./Teasers/fire.gif" title="Fire Teaser"></image>
     </td>
     <td>
-        <video controls src="./Teasers/sensors.mp4" title="Cloth Teaser"></video>
+        <image src="./Teasers/sensors.gif" title="Sensor Teaser"></image>
     </td>
 </tr>
 </table>
