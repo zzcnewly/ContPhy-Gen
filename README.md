@@ -63,7 +63,7 @@ The steps to run generation pipeline:
 
 #### 3. **Import dependencies.** 
 
-> **Note:** The complete ContPhy dataset generation depends on some **commercial packages**, whose legitimate licenses should be obtained at the ``Unity Asset Store``. Add or remove dependencies according to the requirement of your customized dataset. One can also modify the codebase to fit in **open-source alternatives**.
+**Note:** The complete ContPhy dataset generation depends on some **commercial packages**, whose legitimate licenses should be obtained at the ``Unity Asset Store``. Add or remove dependencies according to the requirement of your customized dataset. One can also modify the codebase to fit in **open-source alternatives**.
 
 #### Package List
 * [ContPhy-Gen](https://github.com/zzcnewly/ContPhy-Gen). 
@@ -94,17 +94,17 @@ The steps to run generation pipeline:
 
 * [Computational Geometry Unity Library](https://github.com/Habrador/Computational-geometry/tree/master): 
 
-    > Required. From Github. Move "Assets/_Habrador Computational Geometry Library" to the "Assets" folder.
+    > Required. From Github. Move `Assets/_Habrador Computational Geometry Library` to the `Assets` folder.
 
 * [Unity Mesh Simplifier](https://github.com/Whinarn/UnityMeshSimplifier)
 
-    > Required. From Github. Go to the "Assets" folder. Then git clone the repo.
+    > Required. From Github. Go to the `Assets` folder. Then git clone the repo.
 
 #### Optional Packages
 
-> These packages are optional when generating a new customized dataset but **required when generating ContPhy dataset**. 
->
-> **Note:** Missing the following packages may lead to compile errors. If you do not require a specific package, comment out its associated code by `//`.
+These packages are optional when generating a new customized dataset but **required when generating ContPhy dataset**. 
+
+**Note:** Missing the following packages may lead to compile errors. If you do not require a specific package, comment out its associated code by "`//`".
 
 * [Mesh Voxelizer 2.4.1](https://assetstore.unity.com/packages/tools/utilities/mesh-voxelizer-150233)
 
@@ -169,7 +169,7 @@ The launch command might be like this:
 ```bash
 path/to/Unity/Hub/Editor/2021.3.17f1/Editor/Unity  -openfile "path/to/TestContPhy/Assets/Scenes/main.unity" -executeMethod EnterBatchMode.PlayScene
 ```
-For other tips, check ["through Unity3D Editor"](#through-unity3d-editor).
+For other tips, check [Using Unity3D Editor](#using-unity3d-editor).
 
 
 
