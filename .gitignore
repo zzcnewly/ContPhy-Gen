@@ -1,0 +1,34 @@
+Obi/
+/ToysPack2
+/Procedural Primitives
+/StreamingAssets
+/MeshVoxelizer
+/VolumetricLightBeam
+Settings/
+TutorialInfo/
+*.meta
+OutdoorsScene.unity
+Readme.asset
+/Fabric Shader HDRP
+Living Room 01/
+OAVA-Flame/
+FiloCables/
+_Habrador Computational Geometry Library/
+RealtimeCSG/
+UnityMeshSimplifier/
+ObiEditorSettings.asset
+Resources/VLBConfigOverride.asset
+Resources/PerceptionConfigs/FluidDensityIdLabelConfig.asset
+Resources/PerceptionConfigs/FluidDensitySemanticSegmentationLabelConfig.asset
+Resources/Prefabs/New Lighting Settings.lighting
+Resources/Prefabs/Obi Rope.prefab
+Resources/Prefabs/Obi Sphere.prefab
+Resources/Prefabs/Cylinder.prefab
+Resources/Prefabs/Cloth Collision Blocks/Top Layer
+Resources/Prefabs/Cloth Collision Blocks/Bottom Layer
+Resources/PerceptionConfigs/ProjectIdLabelConfig.asset
+Resources/PerceptionConfigs/ProjectSemanticSegmentationLabelConfig.asset
+Resources/Prefabs/Fluid Density
+Scripts/Python/Rename.txt
+Scripts/Python/__pycache__
+Scripts/Python/postprocess_cloth.py

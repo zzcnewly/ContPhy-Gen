@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9d0176327854820ab53adc46cbec7c1, type: 3}
+  m_Name: PulleyGroupSemanticSegmentationLabelConfig
+  m_EditorClassIdentifier: 
+  m_LabelEntries:
+  - label: Filo Large Pulley
+    color: {r: 0, g: 0, b: 1, a: 1}
+  - label: Filo Little Pulley
+    color: {r: 0, g: 1, b: 0, a: 1}
+  - label: Filo Cube
+    color: {r: 1, g: 0, b: 0, a: 1}
+  - label: Filo Solver
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - label: Filo Rope
+    color: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  - label: Filo Spool
+    color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  - label: Filo Large Pulley Static
+    color: {r: 1, g: 0.8904021, b: 0.109372795, a: 1}
+  - label: Filo Little Pulley Static
+    color: {r: 0.78569794, g: 1, b: 0.10288173, a: 1}
+  - label: Filo Large Pulley Dynamic
+    color: {r: 0.16809404, g: 0.95388234, b: 1, a: 1}
+  - label: Filo Little Pulley Dynamic
+    color: {r: 1, g: 0.36807123, b: 0.27735186, a: 1}
+  - label: Filo Static
+    color: {r: 1, g: 0.97058135, b: 0.26381147, a: 1}
+  skyColor: {r: 0, g: 0, b: 0, a: 1}
