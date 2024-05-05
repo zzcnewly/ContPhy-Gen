@@ -38,8 +38,13 @@ Codebase for ContPhy dataset generation.
 </tr>
 </table>
 
-
 ---
+## Contents 
+[Generation Tutorial](#tutorial-generating-contphy-dataset--scaling-up-customized-dataset) | [Postprocessing](#postprocessing) | [Read Data](#read-and-visualize-annotations) | [Dataset Notes](#dataset-notes) | [Manual Bug Fixes](#manual-bug-fixes) | [Citation](#citation)
+
+
+
+
 ## Tutorial: Generating ContPhy Dataset & Scaling-up Customized Dataset
 ### Using Unity3D Editor
 
@@ -203,6 +208,18 @@ python ./Assets/Scripts/Python/read_and_visualize_data.py --trial_path ./output/
 python ./Assets/Scripts/Python/read_and_visualize_data.py --trial_path ./output/fluid_slides_new/0 --print_shapes --visualize_frame --plot_save_path ./output/images/cache --selected_frame 40
 ```
 
+## Dataset Notes
+
+We are working with `.mp4` formatted videos captured at `30` frames per second, comprising `500` videos with **fixed** lengths specific to each scenario: `250` frames for fluids, `150` for ropes, `145` for cloths, and `120` for balls. However, upon decoding the videos into frames and running the data loading code to fetch the sensor data, please observe the following guidelines:
+
+1. If there is a discrepancy of `2` frames fewer than the specified numbers for any scenario, align the $n^{th}$ frame of each video with the $(n+2)^{th}$ index of the corresponding sensor data.
+
+2. In instances where there is a variation in the number of frames for particle/mesh sensor data among different objects within the same video—particularly noticeable when the duration of cloth frames is not synchronized with other objects—consider the $30^{th}$ frame as the start time for the cloths.
+
+3. We have identified **a bug where rigid objects may display `incorrect poses` in the cloth scenario**. We will address and resolve this issue shortly.
+
+Should you have any confusions or problems, please open an issue under this repo. Thanks!
+
 
 ## Manual Bug Fixes
 
@@ -255,6 +272,8 @@ Line 137
 + FireRecorder fr = flameObj.GetComponent<FireRecorder>();
 + Vector3 closestPoint = (fr != null&&fr.touchPoints.ContainsKey(other.name))? fr.touchPoints[other.name]: other.ClosestPointOnBounds(transform.position);
 ```
+
+
 
 ## Citation
 Welcome to cite `ContPhy` if you find the paper, dataset, and implementations useful in your research :)
