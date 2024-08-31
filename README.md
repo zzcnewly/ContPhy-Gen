@@ -8,8 +8,8 @@ Codebase for ContPhy dataset generation.
 >
 > *ICML 2024*  
 > Links | [Project Page](https://physical-reasoning-project.github.io/) | [Paper (Arxiv)](https://arxiv.org/abs/2402.06119) | [Dataset Download](https://huggingface.co/datasets/zzcnewly/ContPhy_Dataset) | [Cite ContPhy](#citation)
->
-> **News 2024/08/31:** All the experiment codes and our preliminary model ContPRO are now released! [Click here](https://github.com/Cakeyan/ContPhy_Public/tree/main)
+
+**News 2024/08/31:** All the experiment codes and our preliminary model ContPRO are now released! [Click here](https://github.com/Cakeyan/ContPhy_Public/tree/main)
 
 <table>
 <tr>
